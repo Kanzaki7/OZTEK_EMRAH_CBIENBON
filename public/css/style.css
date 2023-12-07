@@ -74,6 +74,25 @@ nav {
   color: #d9ba85 !important;
 }
 
+.section1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("~../../../assets/img/about-bg.jpg");
+  background-position: center;
+  position: relative;
+  overflow: auto;
+  z-index: 2;
+}
+
+.filter-sec1 {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 75%;
+  z-index: -1;
+  position: absolute;
+}
+
 @media screen and (min-width: 320px) and (max-width: 1023px) {
   .nav-book {
     display: none;
