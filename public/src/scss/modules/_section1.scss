@@ -41,3 +41,53 @@
     justify-content: center;
 }
 
+.img-hover-zoom {
+    overflow: hidden;
+    position: relative;
+}
+
+.zoom-img {
+    z-index: -1;
+}
+
+/* Zoom-n-rotate Container */
+.img-hover-zoom--zoom-n-rotate img {
+    transition: transform .4s ease-in-out;
+  }
+
+.img-hover-zoom--zoom-n-rotate {
+    transition: transform .4s ease-in-out;
+  }
+  
+/* The Transformation */
+.img-hover-zoom--zoom-n-rotate:hover img {
+    transform: scale(1.05);
+}
+
+.img-hover-zoom--zoom-n-rotate:hover {
+    transform: scale(1.05);
+}
+
+
+.bord-img1 {
+    width: 75px;
+    height: 75px;
+    border: 5px solid #cda45d;
+    border-right: none;
+    border-bottom: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.bord-img2 {
+    width: 75px;
+    height: 75px;
+    border: 5px solid #cda45d;
+    border-left: none;
+    border-top: none;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
