@@ -166,6 +166,38 @@ nav {
   bottom: 20px;
 }
 
+.section2 {
+  background-color: #0b0b09;
+  width: 100%;
+  height: 70%;
+}
+
+.why {
+  color: #aaaaaa;
+}
+
+.choose {
+  color: #c19a58;
+}
+
+.hr-sec2 {
+  color: white;
+  width: 150px;
+}
+
+.number {
+  color: #cda45d;
+}
+
+.p-sec2 {
+  color: #aaaaaa;
+}
+
+.card {
+  background-color: #1a1814;
+  width: 450px !important;
+}
+
 @media screen and (min-width: 320px) and (max-width: 1023px) {
   .nav-book {
     display: none;
