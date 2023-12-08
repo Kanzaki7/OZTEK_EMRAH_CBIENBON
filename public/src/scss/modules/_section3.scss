@@ -1,0 +1,43 @@
+.section3 {
+    width: 100%;
+    height: 100%;
+    background-color: #1a1814;
+}
+
+.sec3-a {
+    cursor: pointer;
+}
+
+.div-menu {
+    display: flex;
+}
+
+.menu-line {
+    display: flex;
+}
+
+.img-menu {
+    width: 60px;
+    height: 60px;
+    border: 5px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dish {
+    cursor: pointer;
+}
+
+.hr-menu {
+    border-top: 3px dotted white;
+    width: 200px;
+}
+
+.price-menu {
+    color: #cda45d;
+}
+
+.ing-menu {
+    font-style: italic;
+    color: gray;
+}
