@@ -10,8 +10,8 @@ body {
 .header {
   background-image: url("~../../../assets/img/hero-bg.jpg");
   background-position: center;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   z-index: 2;
   position: relative;
   overflow: auto;
@@ -27,8 +27,8 @@ body {
 }
 
 nav {
-  position: relative;
-  z-index: 2;
+  position: fixed;
+  z-index: 999;
   overflow: hidden;
 }
 
@@ -75,8 +75,8 @@ nav {
 }
 
 .section1 {
-  width: 100%;
-  height: 90%;
+  width: 100vw;
+  height: 90vh;
   background-image: url("~../../../assets/img/about-bg.jpg");
   background-position: center;
   position: relative;
@@ -196,6 +196,24 @@ nav {
 .card {
   background-color: #1a1814;
   width: 450px !important;
+  z-index: 2;
+}
+
+.card:hover {
+  background-color: #cda45d;
+  padding-bottom: 80px !important;
+}
+
+.card:hover .number {
+  color: white;
+}
+
+.card:hover .text-white {
+  color: white;
+}
+
+.card:hover .p-sec2 {
+  color: white;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1023px) {
@@ -252,6 +270,23 @@ nav {
   .img-hover-zoom {
     width: 90%;
   }
+  .section2 {
+    width: 100%;
+    height: auto;
+  }
+  .title-sec2 {
+    margin-left: 0 !important;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .div-card {
+    flex-direction: column !important;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .card {
+    width: 90% !important;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 425px) {
   .div-hero {
@@ -294,6 +329,23 @@ nav {
   .img-hover-zoom {
     width: 90%;
   }
+  .section2 {
+    width: 100%;
+    height: auto;
+  }
+  .title-sec2 {
+    margin-left: 0 !important;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .div-card {
+    flex-direction: column !important;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .card {
+    width: 90% !important;
+  }
 }
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .div-hero {
@@ -335,6 +387,23 @@ nav {
   }
   .img-hover-zoom {
     width: 90%;
+  }
+  .section2 {
+    width: 100%;
+    height: auto;
+  }
+  .title-sec2 {
+    margin-left: 0 !important;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .div-card {
+    flex-direction: column !important;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .card {
+    width: 90% !important;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -379,6 +448,28 @@ nav {
   }
   .img-hover-zoom {
     width: 90%;
+  }
+  .section2 {
+    width: 100%;
+    height: auto;
+  }
+  .title-sec2 {
+    margin-left: 0 !important;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .div-card {
+    flex-direction: column !important;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .card {
+    width: 90% !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1339px) {
+  .card {
+    width: 300px !important;
   }
 }
 .btn-yt:hover .fa-play {

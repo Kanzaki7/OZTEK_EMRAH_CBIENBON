@@ -73,6 +73,30 @@
     .img-hover-zoom {
         width: 90%;
     }
+
+    // section2
+
+    .section2 {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .title-sec2 {
+        margin-left: 0 !important;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .div-card {
+        flex-direction: column !important;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        width: 90% !important;
+    }
 }
 
 // mobile M
@@ -130,6 +154,29 @@
     .img-hover-zoom {
         width: 90%;
     }
+
+    // section2
+
+    .section2 {
+        width: 100%;
+        height: auto;
+    }
+    
+    .title-sec2 {
+        margin-left: 0 !important;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .div-card {
+        flex-direction: column !important;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .card {
+        width: 90% !important;
+    }
 }
 
 // mobile L
@@ -186,6 +233,29 @@
     
     .img-hover-zoom {
         width: 90%;
+    }
+
+    // section2
+
+    .section2 {
+        width: 100%;
+        height: auto;
+    }
+    
+    .title-sec2 {
+        margin-left: 0 !important;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .div-card {
+        flex-direction: column !important;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .card {
+        width: 90% !important;
     }
 }
 
@@ -245,5 +315,36 @@
     
     .img-hover-zoom {
         width: 90%;
+    }
+
+    // section2
+
+    .section2 {
+        width: 100%;
+        height: auto;
+    }
+        
+    .title-sec2 {
+        margin-left: 0 !important;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+        
+    .div-card {
+        flex-direction: column !important;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+        
+    .card {
+        width: 90% !important;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1339px) {
+    // section2
+
+    .card {
+        width: 300px !important;
     }
 }

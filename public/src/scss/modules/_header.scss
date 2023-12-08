@@ -1,8 +1,8 @@
 .header {
     background-image: url("~../../../assets/img/hero-bg.jpg");
     background-position: center;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     z-index: 2;
     position: relative;
     overflow: auto;
@@ -19,8 +19,8 @@
 }
 
 nav {
-    position: relative;
-    z-index: 2;
+    position: fixed;
+    z-index: 999;
     overflow: hidden;
 }
 

@@ -4,6 +4,7 @@
     height: 70%;
 }
 
+
 .why {
     color: #aaaaaa;
 }
@@ -28,4 +29,22 @@
 .card {
     background-color: #1a1814;
     width: 450px !important;
+    z-index: 2;
+}
+
+.card:hover {
+    background-color: #cda45d;
+    padding-bottom: 80px !important;
+}
+
+.card:hover .number {
+    color: white;
+}
+
+.card:hover .text-white {
+    color: white;
+}
+
+.card:hover .p-sec2 {
+    color: white;
 }
