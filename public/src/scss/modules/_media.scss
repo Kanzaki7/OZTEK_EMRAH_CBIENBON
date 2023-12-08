@@ -167,6 +167,30 @@
     .ing-menu {
         font-size: 13px;
     }
+
+    // section4
+
+    .section4 {
+        width: 100%;
+        height: auto;
+    }
+
+    .titre-sec4 {
+        margin-left: 0px;
+    }
+
+    .carousel-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-img-carousel {
+        width: 90%;
+    }
+
+    .div-p-carousel {
+        width: 90%;
+    }
 }
 
 // mobile M
@@ -317,6 +341,30 @@
     .ing-menu {
         font-size: 13px;
     }
+
+    // section4
+
+    .section4 {
+        width: 100%;
+        height: auto;
+    }
+    
+    .titre-sec4 {
+        margin-left: 0px;
+    }
+    
+    .carousel-item {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .div-img-carousel {
+        width: 90%;
+    }
+    
+    .div-p-carousel {
+        width: 90%;
+    }
 }
 
 // mobile L
@@ -466,6 +514,30 @@
 
     .ing-menu {
         font-size: 13px;
+    }
+
+    // section4
+
+    .section4 {
+        width: 100%;
+        height: auto;
+    }
+    
+    .titre-sec4 {
+        margin-left: 0px;
+    }
+    
+    .carousel-item {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .div-img-carousel {
+        width: 90%;
+    }
+    
+    .div-p-carousel {
+        width: 90%;
     }
 }
 
@@ -620,6 +692,30 @@
     .ing-menu {
         font-size: 13px;
     }
+
+    // section4
+
+    .section4 {
+        width: 100%;
+        height: auto;
+    }
+    
+    .titre-sec4 {
+        margin-left: 40px;
+    }
+    
+    .carousel-item {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .div-img-carousel {
+        width: 90%;
+    }
+    
+    .div-p-carousel {
+        width: 90%;
+    }
 }
 
 // laptop S
@@ -700,4 +796,22 @@
         width: 150px;
     }
 
+    // section4
+
+    .section4 {
+        width: 100%;
+        height: auto;
+    }
+    
+    .titre-sec4 {
+        margin-left: 0px;
+    }
+    
+    .div-img-carousel {
+        width: 50%;
+    }
+    
+    .div-p-carousel {
+        width: 50%;
+    }
 }

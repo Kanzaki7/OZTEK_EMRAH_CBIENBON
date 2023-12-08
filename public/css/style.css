@@ -479,6 +479,23 @@ nav {
   .ing-menu {
     font-size: 13px;
   }
+  .section4 {
+    width: 100%;
+    height: auto;
+  }
+  .titre-sec4 {
+    margin-left: 0px;
+  }
+  .carousel-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .div-img-carousel {
+    width: 90%;
+  }
+  .div-p-carousel {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 425px) {
   .div-hero {
@@ -590,6 +607,23 @@ nav {
   .ing-menu {
     font-size: 13px;
   }
+  .section4 {
+    width: 100%;
+    height: auto;
+  }
+  .titre-sec4 {
+    margin-left: 0px;
+  }
+  .carousel-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .div-img-carousel {
+    width: 90%;
+  }
+  .div-p-carousel {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .div-hero {
@@ -700,6 +734,23 @@ nav {
   }
   .ing-menu {
     font-size: 13px;
+  }
+  .section4 {
+    width: 100%;
+    height: auto;
+  }
+  .titre-sec4 {
+    margin-left: 0px;
+  }
+  .carousel-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .div-img-carousel {
+    width: 90%;
+  }
+  .div-p-carousel {
+    width: 90%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -814,6 +865,23 @@ nav {
   .ing-menu {
     font-size: 13px;
   }
+  .section4 {
+    width: 100%;
+    height: auto;
+  }
+  .titre-sec4 {
+    margin-left: 40px;
+  }
+  .carousel-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .div-img-carousel {
+    width: 90%;
+  }
+  .div-p-carousel {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 1024px) and (max-width: 1339px) {
   .navbar-nav {
@@ -867,6 +935,19 @@ nav {
   }
   .hr-menu-spinach {
     width: 150px;
+  }
+  .section4 {
+    width: 100%;
+    height: auto;
+  }
+  .titre-sec4 {
+    margin-left: 0px;
+  }
+  .div-img-carousel {
+    width: 50%;
+  }
+  .div-p-carousel {
+    width: 50%;
   }
 }
 .btn-yt:hover .fa-play {
