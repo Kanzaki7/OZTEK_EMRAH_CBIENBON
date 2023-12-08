@@ -371,6 +371,76 @@ nav {
   margin-left: 103px;
 }
 
+.form-input {
+  background: none;
+  border: 0;
+  border: 1px solid #cda45d;
+  border-radius: 5px;
+  padding: 10px;
+  width: 250px;
+  position: relative;
+  color: #cda45d;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-div1 {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input::placeholder {
+  color: white;
+  position: absolute;
+  left: 15px;
+}
+
+#message {
+  background: none;
+  border: 0;
+  border: 1px solid #cda45d;
+  border-radius: 5px;
+  position: relative;
+  color: #cda45d;
+  resize: none;
+}
+
+#message::placeholder {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section5-button {
+  background: none;
+  border: none;
+  color: white;
+  width: 130px;
+  height: 40px;
+  background-color: #cda45d;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: RobotoRegular;
+}
+
+.section5-button:hover {
+  background: transparent;
+  border: 1px solid #cda45d;
+}
+
+#touch {
+  color: #cda45d;
+  font-size: 14px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 1023px) {
   .nav-book {
     display: none;
