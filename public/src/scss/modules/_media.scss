@@ -97,6 +97,76 @@
     .card {
         width: 90% !important;
     }
+
+    // section3
+
+    .section3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .div-repas {
+        flex-direction: column;
+    }
+
+    .div-rep {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .div-rep2 {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .div-menu {
+        width: 95% !important;
+    }
+
+    .hr-menu {
+        width: 100px;
+    }
+
+    .hr-menu-crab {
+        width: 140px;
+    }
+    
+    .hr-menu-tuscan {
+        width: 110px;
+    }
+    
+    .hr-menu-salad {
+        width: 120px;
+    }
+    
+    .hr-menu-roll {
+        width: 125px;
+    }
+    
+    .hr-menu-bread {
+        width: 160px;
+    }
+
+    .caesar {
+        width: 135px;
+    }
+    
+    .hr-menu-mozza {
+        width: 130px;
+    }
+    
+    .hr-menu-spinach {
+        width: 150px;
+    }
+
+    .dish {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .ing-menu {
+        font-size: 13px;
+    }
 }
 
 // mobile M
@@ -177,6 +247,76 @@
     .card {
         width: 90% !important;
     }
+
+    // section3
+
+    .section3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .div-repas {
+        flex-direction: column;
+    }
+
+    .div-rep {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .div-rep2 {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .div-menu {
+        width: 95% !important;
+    }
+
+    .hr-menu {
+        width: 130px;
+    }
+
+    .hr-menu-crab {
+        width: 158px;
+    }
+    
+    .hr-menu-tuscan {
+        width: 130px;
+    }
+    
+    .hr-menu-salad {
+        width: 145px;
+    }
+    
+    .hr-menu-roll {
+        width: 135px;
+    }
+    
+    .hr-menu-bread {
+        width: 150px;
+    }
+
+    .caesar {
+        width: 120px;
+    }
+    
+    .hr-menu-mozza {
+        width: 130px;
+    }
+    
+    .hr-menu-spinach {
+        width: 145px;
+    }
+
+    .dish {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .ing-menu {
+        font-size: 13px;
+    }
 }
 
 // mobile L
@@ -256,6 +396,76 @@
     
     .card {
         width: 90% !important;
+    }
+
+    // section3
+
+    .section3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .div-repas {
+        flex-direction: column;
+    }
+
+    .div-rep {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .div-rep2 {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .div-menu {
+        width: 95% !important;
+    }
+
+    .hr-menu {
+        width: 180px;
+    }
+
+    .hr-menu-crab {
+        width: 210px;
+    }
+    
+    .hr-menu-tuscan {
+        width: 185px;
+    }
+    
+    .hr-menu-salad {
+        width: 200px;
+    }
+    
+    .hr-menu-roll {
+        width: 190px;
+    }
+    
+    .hr-menu-bread {
+        width: 205px;
+    }
+
+    .caesar {
+        width: 175px;
+    }
+    
+    .hr-menu-mozza {
+        width: 180px;
+    }
+    
+    .hr-menu-spinach {
+        width: 195px;
+    }
+
+    .dish {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .ing-menu {
+        font-size: 13px;
     }
 }
 
@@ -339,12 +549,155 @@
     .card {
         width: 90% !important;
     }
+
+    // section3
+
+    .section3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .div-repas {
+        flex-direction: column;
+    }
+
+    .div-rep {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .div-rep2 {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .div-menu {
+        width: 95% !important;
+    }
+
+
+    .hr-menu {
+        width: 500px;
+    }
+
+    .hr-menu-crab {
+        width: 525px;
+    }
+    
+    .hr-menu-tuscan {
+        width: 500px;
+    }
+    
+    .hr-menu-salad {
+        width: 510px;
+    }
+    
+    .hr-menu-roll {
+        width: 500px;
+    }
+    
+    .hr-menu-bread {
+        width: 525px;
+    }
+
+    .caesar {
+        width: 495px;
+    }
+    
+    .hr-menu-mozza {
+        width: 500px;
+    }
+    
+    .hr-menu-spinach {
+        width: 520px;
+    }
+
+    .dish {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .ing-menu {
+        font-size: 13px;
+    }
 }
 
+// laptop S
+
 @media screen and (min-width: 1024px) and (max-width: 1339px) {
+    // header
+
+    .navbar-nav {
+        gap: 0px;
+    }
+
     // section2
 
     .card {
         width: 300px !important;
     }
+
+    // section3
+
+    .section3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .div-repas {
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+
+
+    .div-rep {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .div-rep2 {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .div-menu {
+        width: 100% !important;
+    }
+
+    .hr-menu {
+        width: 100px;
+    }
+
+    .hr-menu-crab {
+        width: 140px;
+    }
+    
+    .hr-menu-tuscan {
+        width: 110px;
+    }
+    
+    .hr-menu-salad {
+        width: 120px;
+    }
+    
+    .hr-menu-roll {
+        width: 125px;
+    }
+    
+    .hr-menu-bread {
+        width: 160px;
+    }
+
+    .caesar {
+        width: 135px;
+    }
+    
+    .hr-menu-mozza {
+        width: 130px;
+    }
+    
+    .hr-menu-spinach {
+        width: 150px;
+    }
+
 }
