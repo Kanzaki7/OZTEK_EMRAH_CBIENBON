@@ -210,6 +210,16 @@ nav {
   .modal-yt {
     justify-content: center !important;
   }
+  .section1 {
+    flex-direction: column-reverse !important;
+    height: auto;
+  }
+  .text-sec1 {
+    width: 90%;
+  }
+  .img-hover-zoom {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 425px) {
   .div-hero {
@@ -242,6 +252,16 @@ nav {
   .modal-yt {
     justify-content: center !important;
   }
+  .section1 {
+    flex-direction: column-reverse !important;
+    height: auto;
+  }
+  .text-sec1 {
+    width: 90%;
+  }
+  .img-hover-zoom {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .div-hero {
@@ -273,6 +293,16 @@ nav {
   }
   .modal-yt {
     justify-content: center !important;
+  }
+  .section1 {
+    flex-direction: column-reverse !important;
+    height: auto;
+  }
+  .text-sec1 {
+    width: 90%;
+  }
+  .img-hover-zoom {
+    width: 90%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -307,6 +337,16 @@ nav {
   }
   .modal-yt {
     justify-content: center !important;
+  }
+  .section1 {
+    flex-direction: column-reverse !important;
+    height: auto;
+  }
+  .text-sec1 {
+    width: 90%;
+  }
+  .img-hover-zoom {
+    width: 90%;
   }
 }
 .btn-yt:hover .fa-play {

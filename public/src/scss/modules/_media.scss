@@ -18,6 +18,9 @@
 // mobile S
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
+
+    // header
+
     .div-hero {
         flex-direction: column!important;
         justify-content: center !important;
@@ -54,6 +57,21 @@
 
     .modal-yt {
         justify-content: center !important;
+    }
+
+    // section1
+
+    .section1 {
+        flex-direction: column-reverse !important;
+        height: auto;
+    }
+
+    .text-sec1 {
+        width: 90%;
+    }
+
+    .img-hover-zoom {
+        width: 90%;
     }
 }
 
@@ -97,6 +115,21 @@
     .modal-yt {
         justify-content: center !important;
     }
+
+    // section1
+
+    .section1 {
+        flex-direction: column-reverse !important;
+        height: auto;
+    }
+    
+    .text-sec1 {
+        width: 90%;
+    }
+    
+    .img-hover-zoom {
+        width: 90%;
+    }
 }
 
 // mobile L
@@ -138,6 +171,21 @@
 
     .modal-yt {
         justify-content: center !important;
+    }
+
+    // section1
+
+    .section1 {
+        flex-direction: column-reverse !important;
+        height: auto;
+    }
+    
+    .text-sec1 {
+        width: 90%;
+    }
+    
+    .img-hover-zoom {
+        width: 90%;
     }
 }
 
@@ -182,5 +230,20 @@
 
     .modal-yt {
         justify-content: center !important;
+    }
+
+    // section1
+
+    .section1 {
+        flex-direction: column-reverse !important;
+        height: auto;
+    }
+    
+    .text-sec1 {
+        width: 90%;
+    }
+    
+    .img-hover-zoom {
+        width: 90%;
     }
 }
