@@ -144,6 +144,16 @@ nav {
   transform: scale(1.05);
 }
 
+.img-hover-zoom--zoom-n-rotate:hover .bord-img1 {
+  top: 10px;
+  left: 10px;
+}
+
+.img-hover-zoom--zoom-n-rotate:hover .bord-img2 {
+  bottom: 10px;
+  right: 10px;
+}
+
 .bord-img1 {
   width: 75px;
   height: 75px;
