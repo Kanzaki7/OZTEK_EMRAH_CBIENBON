@@ -201,7 +201,10 @@ nav {
 
 .card:hover {
   background-color: #cda45d;
-  padding-bottom: 80px !important;
+}
+
+.card:hover .hover-text {
+  transform: translateY(-15px);
 }
 
 .card:hover .number {
