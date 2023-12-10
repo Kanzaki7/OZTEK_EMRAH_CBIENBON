@@ -368,6 +368,7 @@ nav {
 }
 
 .titre-sec5 {
+  margin-top: 60px;
   margin-left: 103px;
 }
 
@@ -375,28 +376,13 @@ nav {
   background: none;
   border: 0;
   border: 1px solid #cda45d;
-  border-radius: 5px;
-  padding: 10px;
-  width: 250px;
   position: relative;
   color: #cda45d;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.form-div1 {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
+  padding-right: 411px !important;
 }
 
 input::placeholder {
-  color: white;
+  color: #cda45d;
   position: absolute;
   left: 15px;
 }
@@ -405,17 +391,15 @@ input::placeholder {
   background: none;
   border: 0;
   border: 1px solid #cda45d;
-  border-radius: 5px;
   position: relative;
   color: #cda45d;
-  resize: none;
 }
 
 #message::placeholder {
   position: absolute;
-  top: 15px;
-  left: 15px;
-  color: white;
+  top: 10px;
+  left: 10px;
+  color: #cda45d;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -581,6 +565,19 @@ input::placeholder {
   .div-p-carousel {
     width: 90%;
   }
+  .section5 {
+    width: 100%;
+    height: auto;
+  }
+  .titre-sec5 {
+    margin-left: 20px;
+  }
+  .form-input {
+    padding-right: 0px !important;
+  }
+  .formulaire {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 425px) {
   .div-hero {
@@ -709,6 +706,19 @@ input::placeholder {
   .div-p-carousel {
     width: 90%;
   }
+  .section5 {
+    width: 100%;
+    height: auto;
+  }
+  .titre-sec5 {
+    margin-left: 20px;
+  }
+  .form-input {
+    padding-right: 0px !important;
+  }
+  .formulaire {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .div-hero {
@@ -835,6 +845,19 @@ input::placeholder {
     width: 90%;
   }
   .div-p-carousel {
+    width: 90%;
+  }
+  .section5 {
+    width: 100%;
+    height: auto;
+  }
+  .titre-sec5 {
+    margin-left: 20px;
+  }
+  .form-input {
+    padding-right: 0px !important;
+  }
+  .formulaire {
     width: 90%;
   }
 }
@@ -967,6 +990,16 @@ input::placeholder {
   .div-p-carousel {
     width: 90%;
   }
+  .section5 {
+    width: 100%;
+    height: auto;
+  }
+  .titre-sec5 {
+    margin-left: 40px;
+  }
+  .formulaire {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 1024px) and (max-width: 1339px) {
   .navbar-nav {
@@ -1033,6 +1066,9 @@ input::placeholder {
   }
   .div-p-carousel {
     width: 50%;
+  }
+  .form-input {
+    padding-right: 291px !important;
   }
 }
 .btn-yt:hover .fa-play {
