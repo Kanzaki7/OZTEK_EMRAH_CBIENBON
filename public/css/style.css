@@ -637,6 +637,18 @@ input::placeholder {
   .div-img-sec5 {
     width: 90% !important;
   }
+  .div-warning {
+    margin-left: 0px;
+  }
+  .loc-form {
+    gap: 40px;
+  }
+  .formulaire2 {
+    width: 95%;
+  }
+  .new-york {
+    font-size: 11px;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 425px) {
   .div-hero {
@@ -777,6 +789,18 @@ input::placeholder {
   }
   .div-img-sec5 {
     width: 90% !important;
+  }
+  .div-warning {
+    margin-left: 0px;
+  }
+  .loc-form {
+    gap: 40px;
+  }
+  .formulaire2 {
+    width: 95%;
+  }
+  .new-york {
+    font-size: 11px;
   }
 }
 @media screen and (min-width: 425px) and (max-width: 768px) {
@@ -919,6 +943,18 @@ input::placeholder {
   .div-img-sec5 {
     width: 90% !important;
   }
+  .div-warning {
+    margin-left: 0px;
+  }
+  .loc-form {
+    gap: 40px;
+  }
+  .formulaire2 {
+    width: 95%;
+  }
+  .new-york {
+    font-size: 11px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .div-hero {
@@ -1056,6 +1092,15 @@ input::placeholder {
   .titre-sec5 {
     margin-left: 35px;
   }
+  .div-warning {
+    margin-left: 40px;
+  }
+  .loc-form {
+    gap: 40px;
+  }
+  .formulaire2 {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 1024px) and (max-width: 1339px) {
   .navbar-nav {
@@ -1125,6 +1170,9 @@ input::placeholder {
   }
   .titre-sec5 {
     margin-left: 40px;
+  }
+  .new-york {
+    font-size: 10px;
   }
 }
 .btn-yt:hover .fa-play {
