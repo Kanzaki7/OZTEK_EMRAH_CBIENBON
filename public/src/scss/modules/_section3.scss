@@ -76,3 +76,11 @@
     font-style: italic;
     color: gray;
 }
+
+.nav-pills {
+    --bs-nav-pills-link-active-bg: none;
+}
+
+.nav-link {
+    color: white !important;
+}
