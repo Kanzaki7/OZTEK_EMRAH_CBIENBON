@@ -146,157 +146,316 @@
                 </div>
                 <h1 class="choose">Check Our Tasty Menu</h1>
             </div>
-            <ul class="nav justify-content-center mb-5 ">
-                <li class="nav-item">
-                  <a class="nav-link active sec3-a text-white" aria-current="page">All</a>
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link sec3-a text-white starters">Starters</a>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Starters</button>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link sec3-a text-white">Salad</a>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Salads</button>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link sec3-a text-white" aria-disabled="true">Speciality</a>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Speciality</button>
                 </li>
             </ul>
-        </div>
-        <div class="d-flex justify-content-center gap-4 div-repas">
-            <div class="d-flex flex-column gap-4 div-rep">
-                <div class="div-menu d-flex gap-3">
-                    <div>
-                        <img src="./public/assets/img/menu/lobster-bisque.jpg" alt="lobster" class="img-menu">
-                    </div>
-                    <div>
-                        <div class="menu-line">
-                            <p class="dish text-white mb-0">Lobster Bisque</p>
-                            <hr class="hr-menu text-white mb-0">
-                            <p class="price-menu mb-0">$5.95</p>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <div class="d-flex justify-content-center gap-4 div-repas">
+                        <div class="d-flex flex-column gap-4 div-rep">
+                            <div class="div-menu d-flex gap-3">
+                                <div>
+                                    <img src="./public/assets/img/menu/lobster-bisque.jpg" alt="lobster" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Lobster Bisque</p>
+                                        <hr class="hr-menu text-white mb-0">
+                                        <p class="price-menu mb-0">$5.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-menu d-flex gap-3 crab">
+                                <div>
+                                    <img src="./public/assets/img/menu/cake.jpg" alt="cake" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Crab Cake</p>
+                                        <hr class="hr-menu-crab text-white mb-0">
+                                        <p class="price-menu mb-0">$7.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-menu d-flex gap-3">
+                                <div>
+                                    <img src="./public/assets/img/menu/tuscan-grilled.jpg" alt="tuscan" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Tuscan Grilled</p>
+                                        <hr class="hr-menu-tuscan text-white mb-0">
+                                        <p class="price-menu mb-0">$9.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-menu d-flex gap-3">
+                                <div>
+                                    <img src="./public/assets/img/menu/greek-salad.jpg" alt="greek-salad" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Greek Salad</p>
+                                        <hr class="hr-menu-salad text-white mb-0">
+                                        <p class="price-menu mb-0">$9.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-menu d-flex gap-3">
+                                <div>
+                                    <img src="./public/assets/img/menu/lobster-roll.jpg" alt="lobster-roll" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Lobster Roll</p>
+                                        <hr class="hr-menu-roll text-white mb-0">
+                                        <p class="price-menu mb-0">$12.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
+                        <div class="d-flex flex-column gap-4 div-rep2">
+                            <div class="div-menu d-flex gap-3">
+                                <div>
+                                    <img src="./public/assets/img/menu/bread-barrel.jpg" alt="bread-barrel" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Bread Barrel</p>
+                                        <hr class="hr-menu-bread text-white mb-0">
+                                        <p class="price-menu mb-0">$6.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-menu d-flex gap-3">
+                                <div>
+                                    <img src="./public/assets/img/menu/caesar.jpg" alt="caesar-selections" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Caesar Selections</p>
+                                        <hr class="hr-menu caesar text-white mb-0">
+                                        <p class="price-menu mb-0">$8.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-menu d-flex gap-3">
+                                <div>
+                                    <img src="./public/assets/img/menu/mozzarella.jpg" alt="mozzarella" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Mozzarella Stick</p>
+                                        <hr class="hr-menu-mozza text-white mb-0">
+                                        <p class="price-menu mb-0">$4.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-menu d-flex gap-3">
+                                <div>
+                                    <img src="./public/assets/img/menu/spinach-salad.jpg" alt="spinach-salad" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Spinach Salad</p>
+                                        <hr class="hr-menu-spinach text-white mb-0">
+                                        <p class="price-menu mb-0">$9.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="div-menu d-flex gap-3 crab">
-                    <div>
-                        <img src="./public/assets/img/menu/cake.jpg" alt="cake" class="img-menu">
-                    </div>
-                    <div>
-                        <div class="menu-line">
-                            <p class="dish text-white mb-0">Crab Cake</p>
-                            <hr class="hr-menu-crab text-white mb-0">
-                            <p class="price-menu mb-0">$7.95</p>
-                        </div>
-                        <div>
-                            <p class="ing-menu">A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="div-menu d-flex gap-3">
-                    <div>
-                        <img src="./public/assets/img/menu/tuscan-grilled.jpg" alt="tuscan" class="img-menu">
-                    </div>
-                    <div>
-                        <div class="menu-line">
-                            <p class="dish text-white mb-0">Tuscan Grilled</p>
-                            <hr class="hr-menu-tuscan text-white mb-0">
-                            <p class="price-menu mb-0">$9.95</p>
-                        </div>
-                        <div>
-                            <p class="ing-menu">Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="div-menu d-flex gap-3">
-                    <div>
-                        <img src="./public/assets/img/menu/greek-salad.jpg" alt="greek-salad" class="img-menu">
-                    </div>
-                    <div>
-                        <div class="menu-line">
-                            <p class="dish text-white mb-0">Greek Salad</p>
-                            <hr class="hr-menu-salad text-white mb-0">
-                            <p class="price-menu mb-0">$9.95</p>
-                        </div>
-                        <div>
-                            <p class="ing-menu">Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="div-menu d-flex gap-3">
-                    <div>
-                        <img src="./public/assets/img/menu/lobster-roll.jpg" alt="lobster-roll" class="img-menu">
-                    </div>
-                    <div>
-                        <div class="menu-line">
-                            <p class="dish text-white mb-0">Lobster Roll</p>
-                            <hr class="hr-menu-roll text-white mb-0">
-                            <p class="price-menu mb-0">$12.95</p>
-                        </div>
-                        <div>
-                            <p class="ing-menu">Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <div class="d-flex justify-content-center gap-4 div-repas container">
+                        <div class="gap-4 div-rep row">
+                            <div class="div-menu d-flex gap-3 col-lg-5">
+                                <div>
+                                    <img src="./public/assets/img/menu/lobster-bisque.jpg" alt="lobster" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Lobster Bisque</p>
+                                        <hr class="hr-menu text-white mb-0">
+                                        <p class="price-menu mb-0">$5.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-menu d-flex gap-3 crab col-lg-5">
+                                <div>
+                                    <img src="./public/assets/img/menu/cake.jpg" alt="cake" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Crab Cake</p>
+                                        <hr class="hr-menu-crab text-white mb-0">
+                                        <p class="price-menu mb-0">$7.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-menu d-flex gap-3 col-lg-5">
+                                <div>
+                                    <img src="./public/assets/img/menu/mozzarella.jpg" alt="mozzarella" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Mozzarella Stick</p>
+                                        <hr class="hr-menu-mozza text-white mb-0">
+                                        <p class="price-menu mb-0">$4.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="d-flex flex-column gap-4 div-rep2">
-                <div class="div-menu d-flex gap-3">
-                    <div>
-                        <img src="./public/assets/img/menu/bread-barrel.jpg" alt="bread-barrel" class="img-menu">
-                    </div>
-                    <div>
-                        <div class="menu-line">
-                            <p class="dish text-white mb-0">Bread Barrel</p>
-                            <hr class="hr-menu-bread text-white mb-0">
-                            <p class="price-menu mb-0">$6.95</p>
-                        </div>
-                        <div>
-                            <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                    <div class="d-flex justify-content-center gap-4 div-repas container">
+                        <div class="gap-4 div-rep row">
+                            <div class="div-menu d-flex gap-3 col-lg-5">
+                                <div>
+                                    <img src="./public/assets/img/menu/greek-salad.jpg" alt="greek-salad" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Greek Salad</p>
+                                        <hr class="hr-menu-salad text-white mb-0">
+                                        <p class="price-menu mb-0">$9.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-menu d-flex gap-3 col-lg-5">
+                                <div>
+                                    <img src="./public/assets/img/menu/caesar.jpg" alt="caesar-selections" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Caesar Selections</p>
+                                        <hr class="hr-menu caesar text-white mb-0">
+                                        <p class="price-menu mb-0">$8.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-menu d-flex gap-3 col-lg-5">
+                                <div>
+                                    <img src="./public/assets/img/menu/spinach-salad.jpg" alt="spinach-salad" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Spinach Salad</p>
+                                        <hr class="hr-menu-spinach text-white mb-0">
+                                        <p class="price-menu mb-0">$9.95</p>
+                                     </div>
+                                     <div>
+                                        <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="div-menu d-flex gap-3">
-                    <div>
-                        <img src="./public/assets/img/menu/caesar.jpg" alt="caesar-selections" class="img-menu">
-                    </div>
-                    <div>
-                        <div class="menu-line">
-                            <p class="dish text-white mb-0">Caesar Selections</p>
-                            <hr class="hr-menu caesar text-white mb-0">
-                            <p class="price-menu mb-0">$8.95</p>
+                <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                    <div class="d-flex justify-content-center gap-4 div-repas">
+                        <div class="d-flex flex-column gap-4 div-rep">
+                            <div class="div-menu d-flex gap-3">
+                                <div>
+                                    <img src="./public/assets/img/menu/tuscan-grilled.jpg" alt="tuscan" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Tuscan Grilled</p>
+                                        <hr class="hr-menu-tuscan text-white mb-0">
+                                        <p class="price-menu mb-0">$9.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-menu d-flex gap-3">
+                                <div>
+                                    <img src="./public/assets/img/menu/lobster-roll.jpg" alt="lobster-roll" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Lobster Roll</p>
+                                        <hr class="hr-menu-roll text-white mb-0">
+                                        <p class="price-menu mb-0">$12.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="div-menu d-flex gap-3">
-                    <div>
-                        <img src="./public/assets/img/menu/mozzarella.jpg" alt="mozzarella" class="img-menu">
-                    </div>
-                    <div>
-                        <div class="menu-line">
-                            <p class="dish text-white mb-0">Mozzarella Stick</p>
-                            <hr class="hr-menu-mozza text-white mb-0">
-                            <p class="price-menu mb-0">$4.95</p>
-                        </div>
-                        <div>
-                            <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="div-menu d-flex gap-3">
-                    <div>
-                        <img src="./public/assets/img/menu/spinach-salad.jpg" alt="spinach-salad" class="img-menu">
-                    </div>
-                    <div>
-                        <div class="menu-line">
-                            <p class="dish text-white mb-0">Spinach Salad</p>
-                            <hr class="hr-menu-spinach text-white mb-0">
-                            <p class="price-menu mb-0">$9.95</p>
-                        </div>
-                        <div>
-                            <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
+                        <div class="d-flex flex-column gap-4 div-rep2">
+                            <div class="div-menu d-flex gap-3">
+                                <div>
+                                    <img src="./public/assets/img/menu/bread-barrel.jpg" alt="bread-barrel" class="img-menu">
+                                </div>
+                                <div>
+                                    <div class="menu-line">
+                                        <p class="dish text-white mb-0">Bread Barrel</p>
+                                        <hr class="hr-menu-bread text-white mb-0">
+                                        <p class="price-menu mb-0">$6.95</p>
+                                    </div>
+                                    <div>
+                                        <p class="ing-menu">Lorem, dreren, trataro, filede, nerada</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

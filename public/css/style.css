@@ -295,6 +295,14 @@ nav {
   color: gray;
 }
 
+.nav-pills {
+  --bs-nav-pills-link-active-bg: none;
+}
+
+.nav-link {
+  color: white !important;
+}
+
 .section4 {
   background-image: url("~../../../assets/img/events-bg.jpg");
   background-position: center;
