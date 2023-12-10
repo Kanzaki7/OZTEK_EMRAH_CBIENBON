@@ -1,7 +1,7 @@
 .section5 {
     background-color: #0b0b09;
     width: 100%;
-    height: 200vh;
+    height: 400vh;
 }
 
 .hr-sec5 {
@@ -87,4 +87,28 @@ input::placeholder {
 
 .zoom-img-sec5:hover {
     transform: scale(1.1);
+}
+
+.div-imgb-sec5 {
+    transition: 0.3s ease-in-out;
+}
+
+.text-opac {
+    bottom: 15px;
+    left: 165px;
+    display: none;
+    
+}
+
+.div-imgb-sec5:hover img {
+    filter: brightness(50%);
+}
+
+.div-imgb-sec5:hover .text-opac{
+    display: block;
+    z-index: 999;
+}
+
+.chefs-icon:hover {
+    color: #cda45d !important;
 }
