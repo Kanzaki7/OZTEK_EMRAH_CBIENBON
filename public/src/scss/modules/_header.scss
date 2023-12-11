@@ -48,6 +48,7 @@ nav {
 .btn-yt {
     height: 80px;
     width: 80px;
+    background-color: #cda45d !important;
 }
 
 .fa-play {
@@ -62,6 +63,31 @@ nav {
     display: none;
 }
 
+
 .nav-item:hover .nav-link {
-    color: #d9ba85 !important;
+    color: #cda45d !important;
+}
+
+.btn-book1 {
+    border-color: #cda45d !important;
+}
+
+.cbienbon {
+    color: #cda45d !important;
+}
+
+.btn-book-menu {
+    border: 3px solid #cda45d !important;
+}
+
+.btn-book-table {
+    border: 3px solid #cda45d !important;
+}
+
+.play {
+    background-color: #cda45d;
+}
+
+.home {
+    color: #cda45d !important;
 }
