@@ -176,6 +176,33 @@ nav {
   bottom: 20px;
 }
 
+.arrow-home {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  border: 2px solid #cda45d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.fa-arrow-up {
+  color: #cda45d;
+}
+
+.arrow-home:hover {
+  background-color: #cda45d;
+}
+
+.arrow-home:hover .fa-arrow-up {
+  color: white;
+}
+
 .section2 {
   background-color: #0b0b09;
   width: 100%;
