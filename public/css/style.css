@@ -56,6 +56,7 @@ nav {
 .btn-yt {
   height: 80px;
   width: 80px;
+  background-color: #cda45d !important;
 }
 
 .fa-play {
@@ -71,7 +72,31 @@ nav {
 }
 
 .nav-item:hover .nav-link {
-  color: #d9ba85 !important;
+  color: #cda45d !important;
+}
+
+.btn-book1 {
+  border-color: #cda45d !important;
+}
+
+.cbienbon {
+  color: #cda45d !important;
+}
+
+.btn-book-menu {
+  border: 3px solid #cda45d !important;
+}
+
+.btn-book-table {
+  border: 3px solid #cda45d !important;
+}
+
+.play {
+  background-color: #cda45d;
+}
+
+.home {
+  color: #cda45d !important;
 }
 
 .section1 {
@@ -423,7 +448,7 @@ nav {
 .form-input {
   background: none;
   border: 0;
-  border: 1px solid white;
+  border: 1px solid #625b4b;
   position: relative;
   color: white;
 }
@@ -434,7 +459,7 @@ nav {
 }
 
 input::placeholder {
-  color: white;
+  color: #a39b89;
   position: absolute;
   left: 15px;
 }
@@ -442,7 +467,7 @@ input::placeholder {
 #message {
   background: none;
   border: 0;
-  border: 1px solid white;
+  border: 1px solid #625b4b;
   position: relative;
   color: white;
 }
@@ -456,7 +481,7 @@ input::placeholder {
   position: absolute;
   top: 10px;
   left: 10px;
-  color: white;
+  color: #a39b89;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -1365,27 +1390,19 @@ footer {
     font-size: 10px;
   }
 }
-.btn-yt:hover .fa-play {
-  animation-name: play;
-  animation-duration: 0.3s;
-  animation-iteration-count: 1;
+.btn-yt {
+  animation: pulse-black 1.5s infinite;
 }
 
-@keyframes play {
+@keyframes pulse-black {
   0% {
-    font-size: 25px;
+    box-shadow: 0 0 0 0 rgba(205, 163, 94, 0.7);
   }
-  25% {
-    font-size: 40px;
-  }
-  50% {
-    font-size: 50px;
-  }
-  75% {
-    font-size: 60px;
+  70% {
+    box-shadow: 0 0 0 20px rgba(205, 163, 94, 0);
   }
   100% {
-    font-size: 70px;
+    box-shadow: 0 0 0 0 rgba(205, 163, 94, 0);
   }
 }
 
