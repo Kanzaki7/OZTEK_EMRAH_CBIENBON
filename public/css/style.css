@@ -299,7 +299,7 @@ nav {
   background-image: url("~../../../assets/img/events-bg.jpg");
   background-position: center;
   width: 100%;
-  height: 95%;
+  height: 100%;
   position: relative;
   overflow: auto;
   z-index: 1;
@@ -486,7 +486,7 @@ nav {
   .titre-sec4 {
     margin-left: 0px;
   }
-  .carousel-item {
+  .carousel-flex {
     flex-direction: column;
     align-items: center;
   }
@@ -495,6 +495,9 @@ nav {
   }
   .div-p-carousel {
     width: 90%;
+  }
+  .titre-sec4 {
+    margin-left: 20px;
   }
 }
 @media screen and (min-width: 375px) and (max-width: 425px) {
@@ -614,7 +617,7 @@ nav {
   .titre-sec4 {
     margin-left: 0px;
   }
-  .carousel-item {
+  .carousel-flex {
     flex-direction: column;
     align-items: center;
   }
@@ -623,6 +626,10 @@ nav {
   }
   .div-p-carousel {
     width: 90%;
+  }
+  .titre-sec4 {
+    margin-top: 20px;
+    margin-left: 30px;
   }
 }
 @media screen and (min-width: 425px) and (max-width: 768px) {
@@ -742,7 +749,7 @@ nav {
   .titre-sec4 {
     margin-left: 0px;
   }
-  .carousel-item {
+  .carousel-flex {
     flex-direction: column;
     align-items: center;
   }
@@ -751,6 +758,9 @@ nav {
   }
   .div-p-carousel {
     width: 90%;
+  }
+  .titre-sec4 {
+    margin-left: 30px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -872,7 +882,7 @@ nav {
   .titre-sec4 {
     margin-left: 40px;
   }
-  .carousel-item {
+  .carousel-flex {
     flex-direction: column;
     align-items: center;
   }
@@ -881,6 +891,9 @@ nav {
   }
   .div-p-carousel {
     width: 90%;
+  }
+  .titre-sec4 {
+    margin-top: 40px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1339px) {
@@ -944,10 +957,14 @@ nav {
     margin-left: 0px;
   }
   .div-img-carousel {
-    width: 50%;
+    width: 40%;
   }
   .div-p-carousel {
-    width: 50%;
+    width: 40%;
+  }
+  .titre-sec4 {
+    margin-top: 20px;
+    margin-left: 90px;
   }
 }
 .btn-yt:hover .fa-play {
