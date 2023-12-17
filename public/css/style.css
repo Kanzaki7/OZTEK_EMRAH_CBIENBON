@@ -527,7 +527,13 @@ input::placeholder {
 .text-opac {
   bottom: 15px;
   left: 165px;
-  display: none;
+  height: 20%;
+  z-index: -1;
+  transition: 0.5s all;
+}
+
+.william {
+  left: 155px;
 }
 
 .div-imgb-sec5:hover img {
@@ -535,8 +541,8 @@ input::placeholder {
 }
 
 .div-imgb-sec5:hover .text-opac {
-  display: block;
   z-index: 999;
+  height: 28%;
 }
 
 .chefs-icon:hover {
@@ -798,6 +804,12 @@ footer {
   .new-york {
     font-size: 11px;
   }
+  .text-opac {
+    left: 98px;
+  }
+  .william {
+    left: 86px;
+  }
   .copy {
     font-size: 14px;
   }
@@ -978,6 +990,12 @@ footer {
   .new-york {
     font-size: 11px;
   }
+  .text-opac {
+    left: 135px;
+  }
+  .william {
+    left: 110px;
+  }
   footer {
     width: 100%;
     height: auto;
@@ -1153,6 +1171,12 @@ footer {
   .new-york {
     font-size: 11px;
   }
+  .text-opac {
+    left: 158px;
+  }
+  .william {
+    left: 138px;
+  }
   footer {
     width: 100%;
     height: auto;
@@ -1317,6 +1341,12 @@ footer {
     width: 90%;
     margin-bottom: 30px;
   }
+  .text-opac {
+    left: 127px;
+  }
+  .william {
+    left: 106px;
+  }
   footer {
     width: 100%;
     height: auto;
@@ -1412,6 +1442,12 @@ footer {
   }
   .new-york {
     font-size: 10px;
+  }
+  .text-opac {
+    left: 102px;
+  }
+  .william {
+    left: 85px;
   }
 }
 .btn-yt {

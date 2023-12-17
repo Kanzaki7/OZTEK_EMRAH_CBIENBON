@@ -96,8 +96,13 @@ input::placeholder {
 .text-opac {
     bottom: 15px;
     left: 165px;
-    display: none;
-    
+    height: 20%;
+    z-index: -1;
+    transition: .5s all;
+}
+
+.william {
+    left: 155px;
 }
 
 .div-imgb-sec5:hover img {
@@ -105,8 +110,8 @@ input::placeholder {
 }
 
 .div-imgb-sec5:hover .text-opac{
-    display: block;
     z-index: 999;
+    height: 28%;
 }
 
 .chefs-icon:hover {
