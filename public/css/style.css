@@ -163,6 +163,7 @@ nav {
   position: absolute;
   top: 20px;
   left: 20px;
+  transition: 0.4s ease-in-out;
 }
 
 .bord-img2 {
@@ -174,6 +175,7 @@ nav {
   position: absolute;
   right: 20px;
   bottom: 20px;
+  transition: 0.4s ease-in-out;
 }
 
 .arrow-home {
@@ -189,6 +191,7 @@ nav {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  z-index: 100;
 }
 
 .fa-arrow-up {
@@ -237,6 +240,7 @@ nav {
   }
   .div-btn {
     width: 100%;
+    margin-left: 8px;
   }
   .btn-book-menu {
     font-size: 11px !important;
