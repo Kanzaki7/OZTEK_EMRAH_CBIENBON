@@ -188,6 +188,7 @@ nav {
   position: absolute;
   top: 20px;
   left: 20px;
+  transition: 0.4s ease-in-out;
 }
 
 .bord-img2 {
@@ -199,6 +200,7 @@ nav {
   position: absolute;
   right: 20px;
   bottom: 20px;
+  transition: 0.4s ease-in-out;
 }
 
 .arrow-home {
@@ -214,6 +216,7 @@ nav {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  z-index: 999;
 }
 
 .fa-arrow-up {
@@ -258,7 +261,6 @@ nav {
 .card {
   background-color: #1a1814;
   width: 450px !important;
-  z-index: 1;
 }
 
 .card:hover {
@@ -375,7 +377,6 @@ nav {
   height: 100%;
   position: relative;
   overflow: auto;
-  z-index: 1;
 }
 
 .filter-sec2 {
@@ -383,7 +384,6 @@ nav {
   height: 100%;
   background-color: black;
   opacity: 75%;
-  z-index: -1;
   position: absolute;
 }
 
@@ -427,6 +427,7 @@ nav {
 
 .titre-sec4 {
   margin-left: 103px;
+  z-index: 1;
 }
 
 .section5 {
@@ -636,7 +637,7 @@ footer {
     gap: 50%;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
   .div-hero {
     flex-direction: column !important;
     justify-content: center !important;
@@ -657,6 +658,7 @@ footer {
   }
   .div-btn {
     width: 100%;
+    margin-left: 8px;
   }
   .btn-book-menu {
     font-size: 11px !important;
@@ -676,6 +678,10 @@ footer {
   }
   .img-hover-zoom {
     width: 90%;
+  }
+  .fa-check {
+    width: 20px;
+    height: 20px;
   }
   .section2 {
     width: 100%;
@@ -810,7 +816,7 @@ footer {
     margin-bottom: 40px;
   }
 }
-@media screen and (min-width: 375px) and (max-width: 425px) {
+@media screen and (min-width: 375px) and (max-width: 424px) {
   .div-hero {
     flex-direction: column !important;
     justify-content: center !important;
@@ -831,6 +837,7 @@ footer {
   }
   .div-btn {
     width: 100%;
+    margin-left: 6px;
   }
   .btn-book-menu {
     font-size: 16px !important;
@@ -850,6 +857,10 @@ footer {
   }
   .img-hover-zoom {
     width: 90%;
+  }
+  .fa-check {
+    width: 20px;
+    height: 20px;
   }
   .section2 {
     width: 100%;
@@ -982,7 +993,7 @@ footer {
     margin-bottom: 40px;
   }
 }
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
   .div-hero {
     flex-direction: column !important;
     justify-content: center !important;
@@ -1003,6 +1014,7 @@ footer {
   }
   .div-btn {
     width: 100%;
+    margin-left: 5px;
   }
   .btn-book-menu {
     font-size: 20px !important;
@@ -1022,6 +1034,10 @@ footer {
   }
   .img-hover-zoom {
     width: 90%;
+  }
+  .fa-check {
+    width: 20px;
+    height: 20px;
   }
   .section2 {
     width: 100%;
@@ -1316,6 +1332,14 @@ footer {
 @media screen and (min-width: 1024px) and (max-width: 1339px) {
   .navbar-nav {
     gap: 0px;
+  }
+  .fa-check {
+    width: 25x;
+    height: 25px;
+  }
+  .check3 {
+    width: 65px;
+    height: 30x;
   }
   .card {
     width: 300px !important;
